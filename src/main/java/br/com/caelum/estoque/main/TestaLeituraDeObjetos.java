@@ -10,6 +10,7 @@ import br.com.caelum.estoque.rmi.ItemEstoque;
 
 public class TestaLeituraDeObjetos {
 
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args) throws FileNotFoundException, IOException, ClassNotFoundException {
 		try(ObjectInputStream ois = new ObjectInputStream(new FileInputStream("itens.bin"))){
 			
