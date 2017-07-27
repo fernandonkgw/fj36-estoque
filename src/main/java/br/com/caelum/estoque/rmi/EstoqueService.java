@@ -1,6 +1,3 @@
-/**
- * 
- */
 package br.com.caelum.estoque.rmi;
 
 import java.rmi.RemoteException;
